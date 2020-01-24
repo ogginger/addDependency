@@ -28,7 +28,7 @@ define([
 	      //xTestSuite.add( addDependency_FileUpdateError_RejectsFileUpdateError );
 	      //?? How to address this?xTestSuite.add( addDependency_ModuleComposeError_RejectsModuleComposeError );
 	      //?? How to address this?xTestSuite.add( addDependency_ModuleParseError_RejectsModuleParseError );
-	      xTestSuite.add(addDependency_FileDoesNotExist_RejectsErrorFileDoesNotExist); 
+        //xTestSuite.add(addDependency_FileDoesNotExist_RejectsErrorFileDoesNotExist); 
       xTestSuite.test();
     }
   });

@@ -16,7 +16,7 @@ define(function() {
             Input.Target &&
             Input.Source
         ) {
-            xReturn = Input.Target.concat( Input.Source );
+            xReturn = [ Input.Source ].concat( Input.Target );
         } else if ( Input.Target == undefined ) {
             xReturn = [ Input.Source ];
         } else if ( Input.Source == undefined ) {
